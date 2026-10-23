@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breed Search</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/custom.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Dog Breed Search</h1>
+
+    <!-- The user can search for a breed and choose a temperament-->
+    <form id="dog-form">
+
+        <label for="breed-name">Breed Name</label>
+        <input type="text" id="breed-name" name="breed" placeholder="Enter breed name">
+
+        <label for="temperament">Temperament</label>
+        <select id="temperament" name="temperament">
+            <option value="">-- Select a Temperament --</option>
+            <option value="Playful">Playful</option>
+            <option value="Friendly">Friendly</option>
+            <option value="Loyal">Loyal</option>
+            <option value="Energetic">Energetic</option>
+            <option value="Intelligent">Intelligent</option>
+            <option value="Protective">Protective</option>
+            <option value="Affectionate">Affectionate</option>
+        </select>
+
+        <button type="submit">Search Dogs</button>
+
+    </form>
+
+    <!-- The dog search results will appear here -->
+    <div id="results">
+        <p>Search for a dog breed to see results.</p>
+    </div>
+
+</body>
+
+</html>
